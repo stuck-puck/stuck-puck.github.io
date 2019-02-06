@@ -1,0 +1,38 @@
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 10px;
+
+
+
+
+}
+#menu{
+    background-color: orange;
+    width: 100%
+
+
+
+
+}
+#menu li{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+
+
+
+
+}
+#menu a:link , #menu a:visited{
+  text-decoration: none;
+  color: white;
+line-height: 44px;
+padding: 13px 20px;
+font: 13px ;
+}
+#menu a:hover{
+  background-color: green;
+  color: yellow;
+
+}

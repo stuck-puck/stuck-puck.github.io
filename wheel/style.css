@@ -1,0 +1,48 @@
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: yellow;
+
+height: 50px;
+}
+li{
+  float: left;
+position: relative;
+border: 2px solid green;
+padding: -1px -1px;
+
+}
+a{
+  text-decoration: none;
+  background: yellow;
+  color:black;
+  padding: 0px 15px;
+  line-height: 50px;
+  display:block;
+  -moz-transition:all 1s 00.01s ease;
+  -o-transition:all 1s 00.01s ease;
+  -webkit-transition:all 1s 00.01s ease;
+
+}
+a:hover{
+ background-color: blue;
+
+
+}
+  li>ul{
+    display: none;
+    position: absolute;
+
+
+  }
+li:hover>ul{
+background-color: blue;
+  display: block;
+  width: 250px;
+top: 50px;
+}
+li:hover>ul>li{
+background-color: blue;
+  float:none;
+}
